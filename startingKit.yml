@@ -1,0 +1,68 @@
+starting-kit:
+  clear-inventory: true
+  
+  items:
+    armor:
+      helmet:
+        use: false
+        
+        display-name: '&bIron Helmet'
+        unidentified: true
+        
+        type: 'iron_helmet'
+        data: 0
+        amount: 1
+          
+        glow: false
+      chestplate:
+        use: true
+        
+        display-name: '&bIron Chestplate'
+        unidentified: true
+        
+        type: 'iron_chestplate'
+        data: 0
+        amount: 1
+          
+        glow: false
+      leggings:
+        use: true
+        
+        display-name: '&bIron Leggings'
+        unidentified: true
+        
+        type: 'iron_leggings'
+        data: 0
+        amount: 1
+          
+        glow: false
+      boots:
+        use: true
+        
+        display-name: '&bIron Boots'
+        unidentified: true
+        
+        type: 'iron_boots'
+        data: 0
+        amount: 1
+          
+        glow: false
+    inventory:
+      '0':
+        display-name: ''
+        unidentified: false
+        
+        type: 'stone_sword'
+        data: 0
+        amount: 1
+          
+        glow: true
+      '8':
+        display-name: ''
+        unidentified: false
+        
+        type: 'apple'
+        data: 0
+        amount: 16
+          
+        glow: false

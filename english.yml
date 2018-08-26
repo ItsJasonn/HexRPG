@@ -1,0 +1,234 @@
+command-generals:
+    no-permissions: "&cYou have got no permissions for this command!"
+    too-many-arguments: "&cYou have entered too many arguments!"
+    player-only: "&eThis is a player-only command!"
+    command-disabled: "&cThis command has currently been disabled!"
+    unknown-argument: "&cYou have entered an invalid argument!"
+    unknown-player: "&cYou have entered an invalid player!"
+    invalid-number: "&cYou have entered an invalid number!"
+
+navigation:
+    menu-names:
+        items: "Items"
+        tools: "Tools"
+        
+        armor-crafting: "Armor Crafting"
+        weapon-crafting: "Weapon Crafting"
+    next-page: "&aNext page >"
+    previous-page: "&a< Previous page"
+    
+    translations:
+        click-to-retrieve: "&9Click to retrieve this item"
+    
+inventory:
+    inventory-full: "&cYour inventory is full! Please remove some items to make space."
+
+leveling:
+    exp-gained: "&e+%exp% EXP"
+    level-up: "&eYou have leveled up from level &6%old_level% &eto &6%new_level%&e!"
+    skill-level-up: "&eYou have leveled up from level &6%old_level% &eto &6%new_level%&e!"
+    
+    exp-changed-target: "&aYour experience has been set to &6%exp%&a EXP!"
+    exp-changed-executor: "&aYou changed the experience of &6%target% to &6%exp%&a EXP!"
+    level-changed-target: "&aYour level has been set to &6%level%&a!"
+    level-changed-executor: "&aYou changed the level of &6%target% to &6%level%&a!"
+
+shop:
+    command-execution:
+        checking: "&7&oChecking for shops..."
+        already-exists: "&cYou have already got a shop!"
+        placed: "&aSuccesfully created a new shop!"
+    personal-shop:
+        item-transfer:
+            cancelled: "&aAdding item cancelled!"
+            added: "&aItem has succesfully been added!"
+            invalid-amount: "&cYou have entered an invalid number!"
+    renaming:
+        cancelled: "&aRenaming shop cancelled!"
+        renamed: "&aYou have succesfully changed the name of your shop to &r%shop_name%&a!"
+    receiving-rupees:
+        no-rupees: "&cYou do not have any rupees to receive!"
+        inventory-full: "&cYour inventory is full! Please remove some items to make space."
+    buying:
+        not-enough-rupees: "&cYou do not have enough Rupees to purchase this item!"
+        not-enough-money: "&cYou do not have enough money to purchase this item!"
+    chat-phases:
+        remove-rupee-from-bank: "&aEnter how many rupee(s) you want to receive\n&7(Type 'cancel' to cancel this option)"
+        create-bank-note: "&aEnter how many rupee(s) you want to change into a bank note\n&7(Type 'cancel' to cancel this option)"
+        add-item-to-shop: "&aEnter the price of the item to add it to your shop\n&7(Type 'cancel' to cancel this option)"
+  
+scrolls:
+    command-execution:
+        received: "&aSuccesfully received a &5%scroll%&a!"
+        given: "&aSuccesfully gave a &5%scroll%&a to &6%player%!"
+        does-not-exist: "&cThis specific scroll does not exist!"
+    drag-and-drop:
+        one-scroll-only: "&cYou can only use one scroll at the time!"
+        failed: "&c* Scroll failed to apply *"
+        success: "&a* Scroll applied *"
+        
+        item-is-not-weapon: "&cThis item is not a weapon!"
+        item-is-not-armor: "&cThis item is not an armor piece!"
+    translation:
+        success-rate: "Success Rate"
+        on-failure: "On failure, the item will be destroyed at a %destroy_rate%% rate."
+        
+        scroll: "Scroll"
+
+stats:
+    command-execution:
+        invalid-tier-number: "&cThe entered tier-value %tier% is not a number!"
+        invalid-quality: "&cThe entered quality type %quality% is invalid!"
+        received: "&aSuccesfully received a set of &6&l%quality% &aitems with tier &6&l%tier%&a!"
+    equipment:
+        already-reloading: "&cThis weapon is already reloading!"
+        level-up: "&eYour tool has leveled up from level %old_level% to %new_level%!"
+    translation:
+        class: "Class"
+        race: "Race"
+        
+        melee: "Melee"
+        ranged: "Ranged"
+        magic: "Magic"
+        speed: "Speed"
+    
+        damage: "Damage"
+        defense: "Defense"
+        hp: "HP"
+        hitpoints: "Hitpoints"
+        regeneration: "Regeneration"
+        agility: "Agility"
+        strength: "Strength"
+        endurance: "Endurance"
+        dexterity: "Dexterity"
+        critical-chance: "Critical Chance"
+        critical-damage: "Critical Damage"
+        lifesteal: "Lifesteal"
+        
+        quality: "Quality"
+        required-level: "Required Level"
+        potential-lines: "Potential Lines"
+        unidentified: "Unidentified"
+        
+        woodcutting: "Woodcutting"
+        farming: "Farming"
+        mining: "Mining"
+        fishing: "Fishing"
+        smithing: "Smithing"
+        master: "Master"
+
+npc:
+    available-npcs-header: "&aAvailable NPCs:"
+    invalid-type: "&cThe entered NPC type %type% is invalid!"
+
+lockpicking-chest:
+    command-execution:
+        placed: "&aSuccesfully saved the chest location!"
+    lockpicking:
+        no-picklock-equipped: "&cYou need a picklock in your hand to open this container!"
+        incorrect-combination: "&cOops! Wrong combination!"
+  
+resources:
+    command-execution:
+        respawn: "&aAll of the resources have been respawned"
+    on-break:
+        failed: "&cYou have failed to gather the resource."
+        success: "&aYou have collected the resource!"
+    on-place:
+        long-grass: "&cYou are not permitted to place down long grass!"
+
+bank:
+    command-execution:
+        placed: "&aSuccesfully placed a new bank!"
+    rupee-transfer:
+        transfer-cancelled: "&aThe Rupee transfer has been cancelled!"
+        bank-note-transfer-cancelled: "&aThe Bank Note transfer has been cancelled!"
+        amount-too-high: "&cYou have entered a too low amount! Please raise the amount!"
+        amount-too-low: "&cYou have entered a too high amount! Please lower to get the right amount of rupees!"
+        invalid-amount: "&cYou have entered an invalid number!"
+
+custom-mobs:
+    command-execution:
+        available-mobs-header: "&aAvailable mobs:"
+        invalid-type: "&cThe mob type &7%type% &cis invalid!"
+        invalid-entity-type: "&cThe entity type &7%type% &cis invalid!"
+        invalid-tier-number: "&cThe entered tier-value %tier% is not a number!"
+        invalid-armor-type: "&cThe armor type &7%type% &cis invalid!"
+        placed: "&aSuccesfully placed a &6%type% &aspawner!"
+
+combat:
+    in-combat: "&7--> You are in combat! Do not logout!"
+    out-combat: "&7--> You are not in combat anymore! You can safely logout now."
+  
+player-menu:
+    stealing:
+        cooldown: "&cYou will have to wait another &7%seconds% &cseconds to steal again!"
+        failed: "&cYou failed at stealing the item &f%item% &cfrom %player%."
+        success: "&aYou stole &f%item% &6%amount% &atimes from %player%"
+    trading:
+        invitation:
+            already-sent: "&cYou have already sent a trade invitation to &6%player%!"
+            sent: "&aYou have sent a trade invitation to &6%player%!"
+            received: "&6%player% &ahas sent you a trade invitation!"
+    trade:
+        player-in-trade: "&cYou can not interact with %player%, because you are currently trading!"
+        player-in-duel: "&cYou can not interact with %player%, because you are currently dueling!"
+        target-in-trade: "&cCannot interact with %player%, because this player is currently trading!"
+        target-in-duel: "&cCannot interact with %player%, because this player is currently dueling!"
+        
+        wrong-trade-button: "&cYou can not click the trade button of someone else!"
+        wrong-inventory-clicked: "&cYou can not remove items from someone else their trading inventory!"
+        trading-inventory-full: "&cYour trading inventory is full! You can not add more items!"
+        not-enough-space: "&cOne of the players does not have enough space in their inventory!"
+        success: "&aSuccesfully finished trading with &6%player%&a!"
+    dueling:
+        invitation:
+            already-sent: "&cYou have already sent a duel invitation to &6%player%!"
+            sent: "&aYou have sent a duel invitation to &6%player%!"
+            received: "&6%player% &ahas sent you a duel invitation!"
+    duel:
+        started: "&aThe dual between you and &6%enemy% &ahas started!"
+        lost: "&cYou lost the duel against &7%enemy%&c!"
+        won: "&aYou won the duel against &6%enemy%&a!"
+
+smithing:
+    no-hammer-equipped: "&cYou must have a Smithing Hammer in your hand to use the Anvil!"
+    too-low-level: "&cYour smithing hammer does not have the required level to open this category!"
+    not-enough-scraps: "&cYou do not have enough scraps to craft this item!"
+    failed: "&cYou have failed smithing this item!"
+    
+    smithing: "&6&lSmithing"
+    progress: "&6%seconds%..."
+    done: "&6Done!"
+    
+crafting:
+    crafting: "&6&lCrafting"
+    progress: "&6%seconds%..."
+    done: "&6Done!"
+    
+classes:
+    class-chosen: "&aYou have chosen the '&6%class%&a' class!"
+    already-have-a-class: "&cYou already have a class chosen!"
+    
+races:
+    race-chosen: "&aYou have chosen the '&6%race%&a' race!"
+    already-have-a-race: "&cYou already have a race chosen!"
+
+items:
+    item-broke: "&cThe item has broke!"
+    
+abilities:
+    cooldown: "&cYou can't use an ability yet!"
+    cooldown-over: "&7Cooldown over! Any ability is ready to use."
+
+backpacks:
+    translation:
+        backpack: "backpack"
+    
+tools:
+    translation:
+        hammer: "Hammer"
+        hoe: "Hoe"
+        pickaxe: "Pickaxe"
+        fishing-rod: "Fishing Rod"
+        lockpick: "Lockpick"

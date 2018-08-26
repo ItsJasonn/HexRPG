@@ -1,0 +1,51 @@
+description:
+  unidentified-item: "Drag and Drop any Identification Scroll"
+  
+  identification: 'Reveals unidentified stats for weapons and armor pieces'
+  powerful-identification: 'Reveals unidentified stats for weapons and armor pieces with a possible higher chance'
+  
+  ancient: 'Improves weapon damage, on weapons only'
+  dark: 'Improves HP stat, on armor only'
+  prime: 'Dramtically improves weapon damage, on weapons only'
+  chaos: 'Reconfigures equipment stats. Overall power will not decrease'
+
+color:
+  identification: '&8'
+  powerful-identification: '&7'
+  
+  ancient: '&6'
+  dark: '&9'
+  prime: '&c'
+  chaos: '&5'
+
+additionals:
+  # Format for scroll additionals: {STAT}({AMOUNT})
+  # For adding multiple additionals you have to add a ':' in between (Example: DAMAGE(10):LIFESTEAL(4))
+  #
+  # To apply an amount to all stats use 'ALL' for the '{STAT}' name
+
+  identification: 'IDENTIFICATION'
+  powerful-identification: 'IDENTIFICATION'
+  
+  ancient: 'DAMAGE(2)'
+  dark: 'HP(10)'
+  prime: 'DAMAGE(10):LIFESTEAL(4)'
+  chaos: 'ALL(1-3)'
+    
+success:
+  identification: 65
+  powerful-identification: 90
+  
+  ancient: 90
+  dark: 30
+  prime: 20
+  chaos: 60
+    
+destroy:
+  identification: 0
+  powerful-identification: 0
+  
+  ancient: 3
+  dark: 30
+  prime: 0
+  chaos: 0

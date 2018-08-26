@@ -1,0 +1,810 @@
+# Available scrap types: WOOD, MANACLOTH, IRON, GOLD, CHAINMAIL, CRYSTAL, DRAGONSCALE, DIAMOND
+
+'minecraft:wooden_sword':
+  '0':
+    name: 'Wooden Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'WOOD'
+      amount: 3
+'minecraft:stone_sword':
+  '0':
+    name: 'Stone Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'WOOD'
+      amount: 2
+'minecraft:iron_sword':
+  '0':
+    name: 'Iron Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+'minecraft:golden_sword':
+  '0':
+    name: 'Golden Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+'minecraft:diamond_sword':
+  '0':
+    name: 'Diamond Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+'minecraft:iron_hoe':
+  '1':
+    name: 'Iron Dagger'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 2
+  '2':
+    name: 'Iron Longsword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '3':
+    name: 'Iron Greatsword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '4':
+    name: 'Iron Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '5':
+    name: 'Iron Axe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '6':
+    name: 'Iron Battle-Axe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '7':
+    name: 'Iron Spear'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '8':
+    name: 'Iron Halberd'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '9':
+    name: 'Iron Warhammer'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '10':
+    name: 'Iron Mace'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '15':
+    name: 'Demonic Dragon Axe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '18':
+    name: 'Iron Rapier'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '19':
+    name: 'Iron Cutlass'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '20':
+    name: 'Vorpal Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 3
+  '26':
+    name: 'Dynamite'
+    stats: false
+    type: 'THROWABLE'
+    scraps:
+      type: 'IRON'
+      amount: 1
+  '27':
+    name: 'Doomblade'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 2
+  '28':
+    name: 'Dragon Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '29':
+    name: 'Iron Scythe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 2
+  '30':
+    name: 'Iron Flail'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 2
+  '36':
+    name: 'Iron Katar'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 2
+  '37':
+    name: 'Jewel Knife'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 1
+  '47':
+    name: 'Blazing-hot Flame Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 4
+  '48':
+    name: 'Blazing-hot Flame Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 4
+  '49':
+    name: 'Fairy Sword of Light'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 5
+  '52':
+    name: 'Tainted Dagger'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'IRON'
+      amount: 2
+'minecraft:golden_axe':
+  '15':
+    name: 'Golden Dagger'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 2
+  '1':
+    name: 'Golden Longsword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '2':
+    name: 'Golden Greatsword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '3':
+    name: 'Golden Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '4':
+    name: 'Golden Axe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '5':
+    name: 'Golden Battle-Axe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '6':
+    name: 'Golden Spear'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '7':
+    name: 'Golden Halberd'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '8':
+    name: 'Golden Warhammer'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '9':
+    name: 'Golden Mace'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '10':
+    name: 'Golden Rapier'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '11':
+    name: 'Golden Cutlass'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '12':
+    name: 'Golden Scythe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 2
+  '13':
+    name: 'Golden Flail'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 2
+  '14':
+    name: 'Golden Katar'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 2
+'minecraft:diamond_axe':
+  '15':
+    name: 'Diamond Dagger'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 2
+  '1':
+    name: 'Diamond Longsword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '2':
+    name: 'Diamond Greatsword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '3':
+    name: 'Diamond Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '4':
+    name: 'Diamond Axe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '5':
+    name: 'Diamond Battle-Axe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '6':
+    name: 'Diamond Spear'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '7':
+    name: 'Diamond Halberd'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '8':
+    name: 'Diamond Warhammer'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '9':
+    name: 'Diamond Mace'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '10':
+    name: 'Diamond Rapier'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '11':
+    name: 'Diamond Cutlass'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '12':
+    name: 'Diamond Scythe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 2
+  '13':
+    name: 'Diamond Flail'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 2
+  '14':
+    name: 'Diamond Katar'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 2
+  '16':
+    name: 'Dragon Longsword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '17':
+    name: 'Dragon Greatsword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '18':
+    name: 'Dragon Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '19':
+    name: 'Dragon Axe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '20':
+    name: 'Dragon Battle-Axe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '21':
+    name: 'Dragon Spear'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '22':
+    name: 'Dragon Halberd'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '23':
+    name: 'Dragon Warhammer'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '24':
+    name: 'Dragon Mace'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '25':
+    name: 'Dragon Rapier'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '26':
+    name: 'Dragon Cutlass'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '27':
+    name: 'Dragon Scythe'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 2
+  '28':
+    name: 'Dragon Flail'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 2
+  '29':
+    name: 'Dragon Katar'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 2
+  '30':
+    name: 'Diamond Dragon Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '31':
+    name: 'Golden Dragon Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '32':
+    name: 'Dragon Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '33':
+    name: 'Diamond Dragon Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '34':
+    name: 'Golden Dragon Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '35':
+    name: 'Dragon Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '36':
+    name: 'Diamond Vorpal Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+  '37':
+    name: 'Golden Vorpal Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+  '38':
+    name: 'Dragon Vorpal Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '39':
+    name: 'Dragon Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 3
+  '40':
+    name: 'Dragon Dagger'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 2
+'minecraft:golden_sword':
+  '0':
+    name: 'Golden Sword'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+'minecraft:bow':
+  '0':
+    name: 'Bow'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'WOOD'
+      amount: 3
+  '1':
+    name: 'Combat Bow'
+    stats: true
+    type: 'WEAPON'
+    scraps:
+      type: 'WOOD'
+      amount: 3
+'minecraft:shield':
+  '0':
+    name: 'Shield'
+    stats: true
+    type: 'SHIELD'
+    scraps:
+      type: 'WOOD'
+      amount: 5
+  '1':
+    name: 'Demonic Dragon Shield'
+    stats: true
+    type: 'SHIELD'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 5
+  '2':
+    name: 'Dragon Shield'
+    stats: true
+    type: 'SHIELD'
+    scraps:
+      type: 'DRAGONSCALE'
+      amount: 5
+'minecraft:leather_helmet':
+  '0':
+    name: 'Manacloth Hood'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'MANACLOTH'
+      amount: 3
+'minecraft:leather_chestplate':
+  '0':
+    name: 'Manacloth Shirt'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'MANACLOTH'
+      amount: 4
+'minecraft:leather_leggings':
+  '0':
+    name: 'Manacloth Pants'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'MANACLOTH'
+      amount: 4
+'minecraft:leather_boots':
+  '0':
+    name: 'Manacloth Boots'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'MANACLOTH'
+      amount: 3
+'minecraft:chainmail_helmet':
+  '0':
+    name: 'Chainmail Helmet'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'CHAINMAIL'
+      amount: 3
+'minecraft:chainmail_chestplate':
+  '0':
+    name: 'Chainmail Chestplate'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'CHAINMAIL'
+      amount: 4
+'minecraft:chainmail_leggings':
+  '0':
+    name: 'Chainmail Leggings'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'CHAINMAIL'
+      amount: 4
+'minecraft:chainmail_boots':
+  '0':
+    name: 'Chainmail Boots'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'CHAINMAIL'
+      amount: 3
+'minecraft:iron_helmet':
+  '0':
+    name: 'Iron Helmet'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'IRON'
+      amount: 3
+'minecraft:iron_chestplate':
+  '0':
+    name: 'Iron Chestplate'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'IRON'
+      amount: 4
+'minecraft:iron_leggings':
+  '0':
+    name: 'Iron Leggings'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'IRON'
+      amount: 4
+'minecraft:iron_boots':
+  '0':
+    name: 'Iron Boots'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'IRON'
+      amount: 3
+'minecraft:diamond_helmet':
+  '0':
+    name: 'Diamond Helmet'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+'minecraft:diamond_chestplate':
+  '0':
+    name: 'Diamond Chestplate'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'DIAMOND'
+      amount: 4
+'minecraft:diamond_leggings':
+  '0':
+    name: 'Diamond Leggings'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'DIAMOND'
+      amount: 4
+'minecraft:diamond_boots':
+  '0':
+    name: 'Diamond Boots'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'DIAMOND'
+      amount: 3
+'minecraft:golden_helmet':
+  '0':
+    name: 'Golden Helmet'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'GOLD'
+      amount: 3
+'minecraft:golden_chestplate':
+  '0':
+    name: 'Golden Chestplate'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'GOLD'
+      amount: 4
+'minecraft:golden_leggings':
+  '0':
+    name: 'Golden Leggings'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'GOLD'
+      amount: 4
+'minecraft:golden_boots':
+  '0':
+    name: 'Golden Boots'
+    stats: true
+    type: 'ARMOR'
+    scraps:
+      type: 'GOLD'
+      amount: 3

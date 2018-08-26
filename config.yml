@@ -1,0 +1,730 @@
+mysql:
+  enabled: false
+  database: 'hexrpgdb'
+  ip: '127.0.0.1'
+  port: '3306'
+  username: 'root'
+  password: ''
+
+# Current preset language files are:
+# English and Dutch
+language_file: 'english.yml'
+
+# Reference files
+# These are the file locations that the plugin refers to when using any of the settings in those config files
+reference-files:
+  features: 'features.yml'
+  scrolls: 'scrolls.yml'
+  stats: 'stats.yml'
+  petstats: 'petStats.yml'
+  playerstats: 'playerStats.yml'
+  startingkit: 'startingKit.yml'
+
+# Abilities settings
+# Available 'key' values: RIGHT (that's it... but expect more options in later updates, though)
+abilities:
+  blindEye:
+    display:
+      name: '&6Blind Eye'
+      key: 'RIGHT'
+    settings:
+      cooldown: 60
+      
+      stop-moving-on-activation: false
+      damage: 0
+      radius: 3
+      
+      stun-duration: 2
+      silence-duration: 1
+      
+      poison-level: 0
+      poision-duration: 0
+      
+      movement-speed-level: 0
+      movement-speed-duration: 0
+      
+      jump-boost-level: 0
+      jump-boots-duration: 0
+      
+      remove-stun: false
+      remove-silence: false
+      
+      give-items:
+        - ''
+  infusionRecovery:
+    display:
+      name: '&aInfusion Recovery'
+      key: 'RIGHT'
+    settings:
+      cooldown: 60
+      
+      stop-moving-on-activation: true
+      damage: 0
+      radius: 2
+      
+      stun-duration: 1.5
+      silence-duration: 1.5
+      
+      poison-level: 0
+      poision-duration: 0
+      
+      movement-speed-level: 2
+      movement-speed-duration: 3
+      
+      jump-boost-level: 0
+      jump-boots-duration: 0
+      
+      remove-stun: true
+      remove-silence: true
+      
+      give-items:
+        - ''
+  contaminate:
+    display:
+      name: '&cContaminate'
+      key: 'RIGHT'
+    settings:
+      cooldown: 45
+      
+      stop-moving-on-activation: false
+      damage: 2
+      radius: 2
+      
+      stun-duration: 0.5
+      silence-duration: 0
+      
+      poison-level: 1
+      poision-duration: 6
+      
+      movement-speed-level: 0
+      movement-speed-duration: 0
+      
+      jump-boost-level: 0
+      jump-boots-duration: 0
+      
+      remove-stun: false
+      remove-silence: false
+      
+      give-items:
+        - ''
+  powerSwing:
+    display:
+      name: '&cPower Swing'
+      key: 'RIGHT'
+    settings:
+      cooldown: 20
+      
+      stop-moving-on-activation: true
+      damage: 10
+      radius: 3
+      
+      stun-duration: 0.25
+      silence-duration: 0
+      
+      poison-level: 0
+      poision-duration: 0
+      
+      movement-speed-level: 1
+      movement-speed-duration: 2
+      
+      jump-boost-level: 1
+      jump-boots-duration: 2
+      
+      remove-stun: false
+      remove-silence: false
+      
+      give-items:
+        - ''
+  bunnyHop:
+    display:
+      name: '&bBunny Hop'
+      key: 'RIGHT'
+    settings:
+      cooldown: 180
+      
+      stop-moving-on-activation: false
+      damage: 0
+      radius: 1
+      
+      stun-duration: 0
+      silence-duration: 0
+      
+      poison-level: 0
+      poision-duration: 0
+      
+      movement-speed-level: 1
+      movement-speed-duration: 2
+      
+      jump-boost-level: 2
+      jump-boots-duration: 6
+      
+      remove-stun: false
+      remove-silence: false
+      
+      give-items:
+        - 'carrot:2'
+        - 'apple:1'
+        - 'bread:1'
+  
+# Economy settings
+economy:
+  use-essentials-money: false
+  
+# Magic settings
+magic:
+  damage:
+    bloodwave: 15
+    arrowlight: 35
+  other:
+    heal-amount: 75
+    heal-range: 4
+  
+# Chat settings
+#
+# Different function characters can not have the same character!
+# Enter '' to make this function as the default minecraft chat
+chat:
+  close-range-radius:
+    x: 30
+    y: 40
+    z: 30
+  
+  function-characters:
+    global: '!'
+    close-range: ''
+    sell: '>'
+    buy: '<'
+  
+  format:
+    global: '&c[GLOBAL] &f%player%: %message%'
+    close-range: '&f%player%: %message%'
+    sell: '&a[OFFERING] &f%player%: %message%'
+    buy: '&a[BUYING] &f%player%: %message%'
+
+# Level settings
+leveling:
+  tools:
+    exp-gained:
+      min: 40
+      max: 100
+  
+    starting-level: 1
+    starting-exp: 0
+  
+  skills:
+    exp-gained:
+      min: 40
+      max: 100
+    
+    # All values will be multiplied by the level of the skill
+    skill-extras:
+      extra-chance-farming: 2
+      extra-chance-mining: 2
+      extra-chance-fishing: 4
+      extra-chance-smithing: 1
+      extra-hitpoints: 1
+      
+    max-skill-levels:
+      farming: 99
+      mining: 99
+      fishing: 99
+      smithing: 99
+      hitpoints: 99
+  
+  starting-level: 1
+  starting-exp: 0
+  
+  use-table-algorithm: false
+  table-algorithm:
+    - '1:250'
+    - '2:275'
+    - '3:300'
+    - '4:350'
+    - '5:400'
+    - '6:500'
+    - '7:650'
+    - '8:800'
+    - '9:1100'
+    - '10:1400'
+    - '11:2000'
+    - '12:2800'
+    - '13:4000'
+    - '14:6000'
+    - '15:9000'
+    - '16:14000'
+    - '17:20000'
+    - '18:28000'
+    - '19:40000'
+    - '20:65000'
+  
+  starting-exp-required: 250
+  # This will get the required exp from the previous level and multiply it by the value of 'Exp-per-level-multiplier'
+  # Example: 250 (level 1 required EXP)  x  1.3 (multiplier)  =  325 EXP required for level 2
+  exp-per-level-multiplier: 1.3
+  
+  # If a mob type is not defined in this list it will have the value of 'default'
+  # Use the list to get the right name for a mob https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+  # IMPORTANT: Do not remove 'default'
+  gained-exp:
+    BAT: 5
+    BLAZE: 50
+    CAVE_SPIDER: 20
+    CHICKEN: 5
+    COW: 5
+    CREEPER: 25
+    ENDER_DRAGON: 500
+    ENDERMAN: 30
+    ENDERMITE: 15
+    GHAST: 40
+    GIANT: 75
+    GUARDIAN: 20
+    HORSE: 5
+    IRON_GOLEM: 100
+    MAGMA_CUBE: 5
+    MUSHROOM_COW: 5
+    OCELOT: 5
+    PIG: 5
+    PIG_ZOMBIE: 30
+    PLAYER: 0
+    RABBIT: 5
+    SHEEP: 5
+    SILVERFISH: 25
+    SKELETON: 25
+    SLIME: 5
+    SNOWMAN: 5
+    SPIDER: 25
+    SQUID: 5
+    VILLAGER: 5
+    WITCH: 30
+    WOLF: 5
+    ZOMBIE: 25
+    DEFAULT: 3
+
+# Combat settings
+combat:
+  combat-time: 3
+    
+# World settings
+world:
+  disable-storm: true
+  remove-farm-land-on-step: false
+  burn-hostiles: true
+  random-chest-seconds-cooldown: 900
+
+# Death settings
+death:
+  disable-death-message: false
+  clear-drops: false
+  
+  entity-drops:
+    weapons: true
+    armor: true
+    scrolls: true
+    rupees: true
+    
+    chances:
+      weapons: 5.0
+      armor: 8.0
+      scrolls: 10.0
+      rupees: 10.0
+      lockpicks: 12.0
+    
+    rupee-amount:
+      min: 1
+      max: 4
+  
+# Inventory settings
+inventory:
+  show-message-on-rupee-pickup: true
+  rupee-pickup-message: '&a+{AMOUNT} rupee(s)'
+  rupee-pickup-sound: true
+  
+  # For additional stats use percentages without giving the '%' symbol
+  # If you don't want to use a potion effect, then just put 'none' in between the qoutes in the 'type' property
+  # Use the names from the following link in the 'Field Summary' section as the name for the 'type' property https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+  armor-set-effects:
+    manacloth:
+        additional-damage: 0
+        additional-defense: 0
+        additional-drop-rate: 0
+        effect:
+            type: 'SPEED'
+            level: 1
+    chainmail:
+        additional-damage: 0
+        additional-defense: 0
+        additional-drop-rate: 0
+        effect:
+            type: 'JUMP'
+            level: 2
+    iron:
+        additional-damage: 10
+        additional-defense: 0
+        additional-drop-rate: 0
+        effect:
+            type: 'INCREASE_DAMAGE'
+            level: 1
+    leather:
+        additional-damage: 0
+        additional-defense: 10
+        additional-drop-rate: 0
+        effect:
+            type: 'none'
+            level: 1
+    diamond:
+        additional-damage: 0
+        additional-defense: 10
+        additional-drop-rate: 0
+        effect:
+            type: 'DAMAGE_RESISTANCE'
+            level: 1
+# Join settings
+join:
+  disable-join-message: false
+
+# Entity settings
+entities:
+  drop-chance: 100
+  rupee-from-bush-drop-chance: 10
+  
+  drop-experience-orbs: false
+  
+# NPC settings
+npc:
+  holograms:
+    bank: '&6&lBank'
+  
+# Item settings
+items:
+  projectiles:
+    explosives:
+      radius: 5
+      damage: 20
+
+  # The items in this list is not complete. Use the value of 'DEFAULT' for the other items that you can't find in the current list down below
+  # 'DEFAULT' will be the scrap worth whenever you did not define a value for an item in this list
+  scrap-worth:
+    DEFAULT: 3
+    
+    BOW: 3
+    IRON_DAGGER: 2
+    IRON_KATAR: 2
+    IRON_LONGSWORD: 3
+    IRON_SWORD: 3
+    IRON_AXE: 3
+    IRON_MACE: 3
+    IRON_FLAIL: 4
+    IRON_GREATSOWRD: 3
+    IRON_BATTLEAXE: 4
+    IRON_SPEAR: 4
+    IRON_HALBERD: 4
+    IRON_WARHAMMER: 4
+    IRON_SCYTHE: 3
+    GOLD_KATAR: 2
+    GOLD_DAGGER: 2
+    GOLD_LONGSWORD: 3
+    GOLD_SWORD: 3
+    GOLD_AXE: 3
+    GOLD_MACE: 3
+    GOLD_RAPIER: 4
+    GOLD_CUTLASS: 2
+    GOLD_FLAIL: 4
+    GOLD_GREATSWORD: 3
+    GOLD_BATTLEAXE: 4
+    GOLD_SPEAR: 4
+    GOLD_HALBERD: 4
+    GOLD_WARHAMMER: 4
+    GOLD_SCYTHE: 3
+    CRYSTAL_LONGSWORD: 3
+    CRYSTAL_SWORD: 3
+    CRYSTAL_MACE: 3
+    CRYSTAL_RAPIER: 3
+    CRYSTAL_CUTLASS: 2
+    CRYSTAL_FLAIL: 4
+    CRYSTAL_GREATSWORD: 3
+    CRYSTAL_BATTLEAXE: 4
+    CRYSTAL_SPEAR: 4
+    CRYSTAL_HALBERD: 4
+    CRYSTAL_WARHAMMER: 4
+    CRYSTAL_SCYTHE: 3
+    GATE_GUARDIANS_BLADE: 10
+    KAZEJINS_WINDSTRIKE: 10
+    SUJINS_WATERSWORD: 10
+    SUNGAS_THUNDERBLADE: 10
+    RUBY_DRAGON_GREATSWORD: 5
+    RUBY_DRAGON_SWORD: 5
+    EMERALD_DRAGON_SWORD: 5
+    EMERALD_DRAGON_GREATSWORD: 5
+    BLAZING_HOT_FLAME_SWORD: 10
+    BLAZING_HOT_FLAME_SWORD: 10
+    FAIRY_SWORD_OF_LIGHT: 10
+    TOPAZ_DRAGON_SWORD: 5
+    TOPAZ_DRAGON_GREATSWORD: 5
+
+# Block settings
+blocks:
+  # Set this property to 'false' to have the vanilla minecraft ore/farming block breaking
+  disable-timer: false
+  
+  iron-ore-chance: 80
+  gold-ore-chance: 60
+  diamond-ore-chance: 25
+  stone-chance: 80
+  emerald-ore-chance: 50
+  
+  crop-chance: 100
+  carrot-chance: 75
+  potato-chance: 75
+  
+  # These units are given in seconds
+  iron-ore-timer: 900
+  gold-ore-timer: 900
+  diamond-ore-timer: 1800
+  stone-timer: 180
+  emerald-ore-timer: 1800
+  
+  crop-timer: 1800
+  carrot-timer: 1800
+  potato-timer: 1800
+  
+# Smithing settings
+smithing:
+  smithing-window: 'Smithing window'
+  gun-window: 'Gun smithing window'
+  
+  # This is how long it will take for items to be made in the smithing window
+  smelt-time-per-ore: 2
+  smelt-time-per-equipment: 10
+  
+  # Decreasing this will increase the chance of failing and destroying the crafted item
+  success-chance: 100
+  
+  # What level of the hammer is required to open this category in the smithing menu
+  required-level:
+    dragonscale-armor: 60
+    gold-weapons: 20
+    crystal-weapons: 40
+    dragon-weapons: 60
+    legendary-weapons: 80
+      
+# Custom mob spawners settings
+# There is not (yet) a possible way to add your own personal mobs and change their behaviour
+spawners:
+  NECROMANCER:
+    delay: 1800
+    amount: 1
+  WITCH:
+    delay: 900
+    amount: 1
+  CASTER:
+    delay: 900
+    amount: 1
+  GHOST_MOB:
+    delay: 600
+    amount: 1
+  BAT:
+    delay: 300
+    amount: 3
+  SKELETON_WITH_HORSE:
+    delay: 900
+    amount: 1
+  ZOMBIE_WITH_HORSE:
+    delay: 900
+    amount: 1
+  WISP:
+    delay: 300
+    amount: 1
+  WRAITH:
+    delay: 1900
+    amount: 1
+  DRAGON:
+    delay: 3600
+    amount: 1
+
+# Clase settings
+classes:
+  menu:
+    title: 'Choose a class:'
+    rows: 1
+    
+    # For the material names use https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+    #
+    # type = Item ID
+    # data = Durability for item
+    # amount = The amount of items should appear
+    # skull-name = Name of player to set skin for the skull item
+    #              Requires » type: 'minecraft:skeleton_skull' | data: 3
+    # item-name = The name of the item
+    # slot = The slot where to put the item
+    items:
+      warrior:
+        type: 'minecraft:stone_sword'
+        data: 0
+        amount: 1
+        skull-name: ''
+        item-name: '&6&lWarrior'
+        slot: 4
+      archer:
+        type: 'minecraft:bow'
+        data: 0
+        amount: 1
+        skull-name: ''
+        item-name: '&6&lArcher'
+        slot: 5
+      mage:
+        type: 'minecraft:blaze_powder'
+        data: 0
+        amount: 1
+        skull-name: ''
+        item-name: '&6&lMage'
+        slot: 6
+
+  none:
+    ranged: 1.0
+    melee: 1.0
+    magic: 1.0
+    speed: 1.0
+  warrior:
+    ranged: 0.5
+    melee: 1.0
+    magic: 1.0
+    speed: 0.9
+  archer:
+    ranged: 2.0
+    melee: 0.8
+    magic: 1.25
+    speed: 1.2
+  mage:
+    ranged: 1.25
+    melee: 0.9
+    magic: 2.0
+    speed: 1.1
+    
+# Race settings
+races:
+  menu:
+    title: 'Choose a race:'
+    rows: 1
+    
+    # For the material names use https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+    #
+    # type = Item name (eg: minecraft:water_bucket)
+    # data = Durability for item
+    # amount = The amount of items should appear
+    # skull-name = Name of player to set skin for the skull item
+    #              Requires » type: 'minecraft:skeleton_skull' | data: 3
+    # item-name = The name of the item
+    # slot = The slot where to put the item
+    items:
+      human:
+        type: 'minecraft:skeleton_skull'
+        data: 0
+        amount: 1
+        skull-name: ''
+        item-name: '&6&lHuman'
+        slot: 4
+      elf:
+        type: 'minecraft:rose_bush'
+        data: 8
+        amount: 1
+        skull-name: ''
+        item-name: '&6&lElf'
+        slot: 5
+      dwarf:
+        type: 'minecraft:stone_pickaxe'
+        data: 0
+        amount: 1
+        skull-name: ''
+        item-name: '&6&lDwarf'
+        slot: 6
+  
+  none:
+    ranged: 1.0
+    melee: 1.0
+    magic: 1.0
+    speed: 1.0
+  human:
+    ranged: 0.5
+    melee: 1.0
+    magic: 1.0
+    speed: 0.9
+  elf:
+    ranged: 2.0
+    melee: 0.8
+    magic: 1.25
+    speed: 1.2
+  dwarf:
+    ranged: 1.25
+    melee: 0.9
+    magic: 2.0
+    speed: 1.1
+
+# Stealing settings    
+stealing:
+  chance: 2
+  cooldown: 60
+  
+# Backpack settings
+backpacks:
+  rows: 3
+
+# Stats menu customization settings
+# Possible values for slots
+# 
+# Player stats:
+#   PLAYER_PROFILE
+#
+# Item stats:
+#   ITEM_HP
+#   ITEM_DAMAGE
+#   ITEM_DEFENSE
+#   ITEM_AGILITY
+#   ITEM_LIFESTEAL
+#   ITEM_STRENGTH
+#   ITEM_ENDURANCE
+#   ITEM_DEXTERITY
+#   ITEM_CRITICAL_CHANCE
+#   ITEM_CRITICAL_DAMAGE
+#
+# Skill stats:
+#   SKILL_WOODCUTTING
+#   SKILL_FARMING
+#   SKILL_MINING
+#   SKILL_HITPOINTS
+#   SKILL_FISHING
+#   SKILL_SMITHING
+#   SKILL_MASTER
+statsmenu:
+  row-amount: 3
+  
+  rows:
+    '1':
+      - ''
+      - ''
+      - ''
+      - ''
+      - 'PLAYER_PROFILE'
+      - ''
+      - ''
+      - ''
+      - ''
+    '2':
+      - 'ITEM_HP'
+      - 'ITEM_DAMAGE'
+      - 'ITEM_DEFENSE'
+      - 'ITEM_AGILITY'
+      - 'ITEM_LIFESTEAL'
+      - 'ITEM_STRENGTH'
+      - 'ITEM_ENDURANCE'
+      - 'ITEM_DEXTERITY'
+      - 'ITEM_CRITICAL_CHANCE'
+    '3':
+      - ''
+      - 'SKILL_WOODCUTTING'
+      - 'SKILL_FARMING'
+      - 'SKILL_MINING'
+      - 'SKILL_HITPOINTS'
+      - 'SKILL_FISHING'
+      - 'SKILL_SMITHING'
+      - 'SKILL_MASTER'
+      - ''

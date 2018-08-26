@@ -1,0 +1,38 @@
+# 'true' = Feature enabled   |   'false' = Feature disabled
+#
+# Disabling 'stats' will also bring back the vanilla damage system
+# Disabling 'tools' will remove the usage of the tools. Also disables lockpicking chests respawn
+# Disabling 'smithing-window' will lose the ability to open the smithing window when right clicking an anvil
+# Disabling 'armor-sets' you will no longer be able to get special boosts when wearing a full set of armor
+# Disabling 'player-menu' will no longer make you have the posibility to right click players and open the special Player Menu
+# Disabling 'custom-mobs' will disable the spawning system of this plugin for only the custom mobs that are in this plugin.
+# Disabling 'chat' will remove the feature where starting with a specific character will have a function in the chat. This will also disable
+#                  the format of the chat in different channels (global, close-range, etc...) 
+# Disabling 'magic' will remove the ability to use wands
+# Disabling 'required-level' will remove the line on items where players need a required level to perform damage on enemies
+# Disabling 'required-class' no longer forces the player to choose a class when joining
+# Disabling 'required-race' no longer forces the player to choose a race when joining
+# Disabling 'combat-log' will not display the in-combat and out-combat message
+# Disabling 'damage-indicator' will not create a hologram with the amount of damage dealt to an entity
+# Disabling 'abilities' will remove the line on weapons of what ability the weapon has, and also disables the usage of abilities
+# Disabling 'backpacks' will remove the ability to use backpacks on the server
+# Disabling 'pet-stats' no longer applies stats on wolfs and horses, such as movement speed and health
+# Disabling 'starting-kit' causes the plugin to no longer give new players a starting kit setup in the startingKit.yml file
+features:
+  stats: true
+  tools: true
+  smithing-window: true
+  armor-sets: true
+  player-menu: true
+  custom-mobs: true
+  chat: true
+  magic: true
+  required-level: false
+  required-class: false
+  required-race: false
+  combat-log: true
+  damage-indicator: true
+  abilities: true
+  backpacks: true
+  pet-stats: true
+  starting-kit: true

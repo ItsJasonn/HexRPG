@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Jars/mysql-connector-java-5.1.45.jar"/>
+	<classpathentry kind="lib" path="D:/Jars/PlaceholderAPI-2.9.1.jar"/>
+	<classpathentry kind="lib" path="D:/Jars/spigot-1.13.jar"/>
+	<classpathentry kind="lib" path="D:/Jars/Vault-1.6.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

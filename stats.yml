@@ -1,0 +1,441 @@
+stats:
+  # The amount of how many times an item can be used. For swords the durability will decrease
+  # each time you hit something with it. For armor it is being decreased for each time you get
+  # damaged
+  max-durability: 1000
+  durability-loss:
+    min: 3
+    max: 5
+  
+  # The number represents the half of a heart
+  # So for 1 full heart you'll have to enter 'base-hp: 2'
+  base-hp: 20
+  
+  fist-damage: 3
+  minimum-damage:
+    melee: 5
+    ranged: 2
+  
+  potential-lines-amount: 3
+  
+  # Surely passive mobs won't damage anything, so it doesn't matter what you put in the 'damage' property for those
+  # kind of mobs. NEVER LEAVE IT BLANK!
+  mobs:
+    DEFAULT:
+      damage: 10
+      health: 100
+    PIG:
+      damage: 0
+      health: 25
+    COW:
+      damage: 0
+      health: 35
+    CHICKEN:
+      damage: 0
+      health: 12
+    ENDER_DRAGON:
+      damage: 30
+      health: 7500
+  
+  # Adding all of the quality chances with eachother MUST be '100' in total!
+  quality-chances:
+    common: 40
+    decent: 25
+    ordinary: 20
+    rare: 10
+    grand: 5
+  
+  # This can be giving with/without the '&' character.
+  # Please use the colors, and use this as a helpful tool http://minecraft.gamepedia.com/Formatting_codes
+  quality-colors:
+    common: '&f'
+    decent: '&a'
+    ordinary: '&b'
+    rare: '&e'
+    grand: '&d'
+  
+  stats-colors:
+    primary: '&f'
+    secondary: '&9'
+    tertiary: '&7'
+    
+  quality-levels:
+    common: 0
+    decent: 4
+    ordinary: 10
+    rare: 20
+    grand: 30
+  
+  magic:
+    power:
+      max: 20
+      start: 20
+      
+      power-added-per-click: 1
+  
+  # You can split qualities into 2 tiers. You can decide what stats each tier gets
+  # Define all stats in all tiers, or else you might get errors
+  tier-1:
+    common:
+      # These will be the range of stat value a stats can get
+      min-damage: 5
+      max-damage: 20
+      
+      min-defense: 2
+      max-defense: 5
+      
+      min-additional-damage: 2
+      max-additional-damage: 5
+      
+      min-hp-regen: 1
+      max-hp-regen: 3
+      
+      min-hp: 0
+      max-hp: 3
+      
+      min-agility: 1
+      max-agility: 10
+      
+      min-strength: 1
+      max-strength: 10
+      
+      min-endurance: 1
+      max-endurance: 10
+      
+      min-dexterity: 1
+      max-dexterity: 10
+      
+      min-crit-chance: 1
+      max-crit-chance: 10
+      
+      min-crit-damage: 10
+      max-crit-damage: 20
+      
+      min-lifesteal: 1
+      max-lifesteal: 3
+    decent:
+      min-damage: 15
+      max-damage: 35
+      
+      min-defense: 4
+      max-defense: 7
+      
+      min-additional-damage: 4
+      max-additional-damage: 7
+      
+      min-hp-regen: 2
+      max-hp-regen: 5
+      
+      min-hp: 1
+      max-hp: 8
+      
+      min-agility: 5
+      max-agility: 15
+      
+      min-strength: 5
+      max-strength: 15
+      
+      min-endurance: 5
+      max-endurance: 15
+      
+      min-dexterity: 5
+      max-dexterity: 15
+      
+      min-crit-chance: 10
+      max-crit-chance: 20
+      
+      min-crit-damage: 20
+      max-crit-damage: 30
+      
+      min-lifesteal: 2
+      max-lifesteal: 5
+    ordinary:
+      min-damage: 30
+      max-damage: 50
+      
+      min-defense: 5
+      max-defense: 10
+      
+      min-additional-damage: 5
+      max-additional-damage: 10
+      
+      min-hp-regen: 4
+      max-hp-regen: 8
+      
+      min-hp: 4
+      max-hp: 12
+      
+      min-agility: 10
+      max-agility: 20
+      
+      min-strength: 10
+      max-strength: 20
+      
+      min-endurance: 10
+      max-endurance: 20
+      
+      min-dexterity: 10
+      max-dexterity: 20
+      
+      min-crit-chance: 20
+      max-crit-chance: 30
+      
+      min-crit-damage: 30
+      max-crit-damage: 40
+      
+      min-lifesteal: 4
+      max-lifesteal: 8
+    rare:
+      min-damage: 45
+      max-damage: 65
+      
+      min-defense: 5
+      max-defense: 14
+      
+      min-additional-damage: 5
+      max-additional-damage: 14
+      
+      min-hp-regen: 7
+      max-hp-regen: 12
+      
+      min-hp: 8
+      max-hp: 18
+      
+      min-agility: 20
+      max-agility: 30
+      
+      min-strength: 20
+      max-strength: 30
+      
+      min-endurance: 20
+      max-endurance: 30
+      
+      min-dexterity: 20
+      max-dexterity: 30
+      
+      min-crit-chance: 30
+      max-crit-chance: 40
+      
+      min-crit-damage: 40
+      max-crit-damage: 50
+      
+      min-lifesteal: 7
+      max-lifesteal: 12
+    grand:
+      min-damage: 65
+      max-damage: 85
+      
+      min-defense: 7
+      max-defense: 17
+      
+      min-additional-damage: 7
+      max-additional-damage: 17
+      
+      min-hp-regen: 10
+      max-hp-regen: 15
+      
+      min-hp: 12
+      max-hp: 25
+      
+      min-agility: 35
+      max-agility: 50
+      
+      min-strength: 35
+      max-strength: 50
+      
+      min-endurance: 35
+      max-endurance: 50
+      
+      min-dexterity: 35
+      max-dexterity: 50
+      
+      min-crit-chance: 40
+      max-crit-chance: 50
+      
+      min-crit-damage: 50
+      max-crit-damage: 60
+      
+      min-lifesteal: 10
+      max-lifesteal: 15
+  # Tier 2 starts here
+  tier-2:
+    common:
+      min-damage: 30
+      max-damage: 55
+      
+      min-defense: 5
+      max-defense: 12
+      
+      min-additional-damage: 5
+      max-additional-damage: 12
+      
+      min-hp-regen: 10
+      max-hp-regen: 15
+      
+      min-hp: 20
+      max-hp: 25
+      
+      min-agility: 30
+      max-agility: 40
+      
+      min-strength: 30
+      max-strength: 40
+      
+      min-endurance: 30
+      max-endurance: 40
+      
+      min-dexterity: 30
+      max-dexterity: 40
+      
+      min-crit-chance: 50
+      max-crit-chance: 60
+      
+      min-crit-damage: 60
+      max-crit-damage: 70
+      
+      min-lifesteal: 10
+      max-lifesteal: 15
+    decent:
+      min-damage: 45
+      max-damage: 65
+      
+      min-defense: 8
+      max-defense: 17
+      
+      min-additional-damage: 8
+      max-additional-damage: 17
+      
+      min-hp-regen: 14
+      max-hp-regen: 18
+      
+      min-hp: 25
+      max-hp: 35
+      
+      min-agility: 40
+      max-agility: 50
+      
+      min-strength: 40
+      max-strength: 50
+      
+      min-endurance: 40
+      max-endurance: 50
+      
+      min-dexterity: 40
+      max-dexterity: 50
+      
+      min-crit-chance: 60
+      max-crit-chance: 70
+      
+      min-crit-damage: 70
+      max-crit-damage: 80
+      
+      min-lifesteal: 14
+      max-lifesteal: 18
+    ordinary:
+      min-damage: 50
+      max-damage: 85
+      
+      min-defense: 12
+      max-defense: 22
+      
+      min-additional-damage: 12
+      max-additional-damage: 22
+      
+      min-hp-regen: 18
+      max-hp-regen: 25
+      
+      min-hp: 35
+      max-hp: 45
+      
+      min-agility: 50
+      max-agility: 65
+      
+      min-strength: 50
+      max-strength: 65
+      
+      min-endurance: 50
+      max-endurance: 65
+      
+      min-dexterity: 50
+      max-dexterity: 65
+      
+      min-crit-chance: 70
+      max-crit-chance: 80
+      
+      min-crit-damage: 80
+      max-crit-damage: 90
+      
+      min-lifesteal: 18
+      max-lifesteal: 25
+    rare:
+      min-damage: 75
+      max-damage: 100
+      
+      min-defense: 10
+      max-defense: 28
+      
+      min-additional-damage: 10
+      max-additional-damage: 28
+      
+      min-hp-regen: 22
+      max-hp-regen: 32
+      
+      min-hp: 45
+      max-hp: 55
+      
+      min-agility: 65
+      max-agility: 80
+      
+      min-strength: 65
+      max-strength: 80
+      
+      min-endurance: 65
+      max-endurance: 80
+      
+      min-dexterity: 65
+      max-dexterity: 80
+      
+      min-crit-chance: 80
+      max-crit-chance: 90
+      
+      min-crit-damage: 90
+      max-crit-damage: 100
+      
+      min-lifesteal: 22
+      max-lifesteal: 32
+    grand:
+      min-damage: 90
+      max-damage: 115
+      
+      min-defense: 15
+      max-defense: 33
+      
+      min-additional-damage: 15
+      max-additional-damage: 33
+      
+      min-hp-regen: 30
+      max-hp-regen: 38
+      
+      min-hp: 55
+      max-hp: 80
+      
+      min-agility: 80
+      max-agility: 100
+      
+      min-strength: 80
+      max-strength: 100
+      
+      min-endurance: 80
+      max-endurance: 100
+      
+      min-dexterity: 80
+      max-dexterity: 100
+      
+      min-crit-chance: 90
+      max-crit-chance: 100
+      
+      min-crit-damage: 100
+      max-crit-damage: 100
+      
+      min-lifesteal: 30
+      max-lifesteal: 38

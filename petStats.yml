@@ -1,0 +1,28 @@
+# Increasement for each level for each stat of the pet of the player
+# Current available pets as of now are wolfs and horses
+pet-stats:
+  # The amount of ticks the plugin will check the level and stats of all pets on the server
+  # 20 ticks = 1 second
+  # WARNING: Decreasing this number will also decrease the performance of your server
+  ticks: 200
+
+  wolf:
+    health: 1
+    movement-speed: 0.01
+    attack-damage: 1
+    attack-speed: 0.1
+    
+    # This is the amount that the pet needs to be alive to level up each level
+    # Default value: 2400 (= 2 hours to level up each level)
+    ticks-per-level: 2400
+    
+    starting-level: 0
+  horse:
+    health: 2
+    movement-speed: 0.015
+    attack-damage: 0
+    attack-speed: 0.1
+    
+    ticks-per-level: 2400
+    
+    starting-level: 0

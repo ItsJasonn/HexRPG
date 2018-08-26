@@ -1,0 +1,36 @@
+name: HexRPG
+main: me.ItsJasonn.HexRPG.Main.Core
+version: 2.8.2
+description: A wide-open RPG plugin to turn your world into an adventurous play-area
+softdepend: [PlaceholderAPI]
+author: ItsJasonn
+api-version: 1.13
+commands:
+ backpack:
+  description: Open up your personal private backpack
+ chooseclass:
+  description: Choose a class
+ chooserace:
+  description: Choose a race
+ respawnresources:
+  description: Respawn all the resources
+ createshop:
+  description: Place a new perosnal custom shop
+ getscroll:
+  description: Receive a scroll with a given type
+ items:
+  description: Open a menu with all HexRPG items
+ leveling:
+  description: Change the experience or level of someone
+ placechest:
+  description: Save a location spawn a chest with random content in it
+ setbank:
+  description: Popup help page
+ smith:
+  description: Open the smithing menu
+ spawnblock:
+  description: Spawn a bank
+ stats:
+  description: Show your stats
+ tools:
+  description: Opens the tools menu
